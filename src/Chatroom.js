@@ -12,8 +12,8 @@ import { uuidv4 } from "./utils";
 import Message, { MessageTime } from "./Message";
 import SpeechInput from "./SpeechInput";
 
-const REDRAW_INTERVAL = 10000;
-const GROUP_INTERVAL = 60000;
+const REDRAW_INTERVAL = 9990000;
+const GROUP_INTERVAL = 9960000;
 
 export type ChatMessage = {
   message:
